@@ -14,12 +14,17 @@
     <header>
         <nav class="navbar">
             <div class="logo">Smart<span>Flow</span></div>
-            <ul class="nav-links">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Accueil</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#about">Pourquoi Nous</a></li>
-                <li><a href="#" class="btn-contact">Contact</a></li>
+                <li><a href="#footer" class="btn-contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -204,7 +209,7 @@
         <span>Discuter sur WhatsApp</span>
     </a>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer-container">
             <div class="footer-section">
                 <h4>SmartFlow</h4>
@@ -248,6 +253,24 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({ duration: 1000, once: true });
+        
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+        
+        // Close menu when link is clicked
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
     </script>
 </body>
 </html>
