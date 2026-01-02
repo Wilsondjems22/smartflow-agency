@@ -186,7 +186,7 @@ header {
 
 .whatsapp-float:hover { transform: scale(1.1); }
 
-</* Features Section */>
+/* Features Section */
 .features {
     padding: 80px 10%;
     text-align: center;
@@ -852,6 +852,7 @@ header {
         font-size: 1rem;
     }
 }
+
 
 
 
