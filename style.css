@@ -66,7 +66,7 @@ header {
     padding: 80px 10%;
     min-height: 80vh;
     background: linear-gradient(135deg, rgba(240, 244, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%),
-                url('showcase-tech-app.jpg') right center / contain no-repeat;
+                url('heroimg.png') right center / contain no-repeat;
     position: relative;
 }
 
@@ -852,4 +852,5 @@ header {
         font-size: 1rem;
     }
 }
+
 
