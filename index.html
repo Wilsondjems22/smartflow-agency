@@ -3,277 +3,556 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartFlow Agency | Solutions Digitales</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="description" content="SmartFlow Agency - Solutions digitales innovantes pour PME : création de sites web, agents IA, et services numériques">
+    <title>SmartFlow Agency - Solutions Digitales pour PME</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header>
-        <nav class="navbar">
-            <div class="logo">Smart<span>Flow</span></div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#about">Pourquoi Nous</a></li>
-                <li><a href="#footer" class="btn-contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero" id="home">
-        <div class="hero-content" data-aos="fade-right">
-            <h1>Des Solutions Tech pour votre <span>Business</span></h1>
-            <p>Nous créons des sites web modernes, des designs percutants et des présentations qui propulsent votre PME vers le futur.</p>
-            <div class="hero-btns">
-                <a href="#services" class="btn-primary">En savoir plus</a>
-                <a href="#projects" class="btn-secondary">Nos Projets</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <div class="section-title" data-aos="fade-up">
-            <p>NOS EXPERTISES</p>
-            <h2>Nos Services</h2>
-        </div>
-        <div class="services-grid">
-            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                <i class="fas fa-laptop-code"></i>
-                <h3>Web Design</h3>
-                <p>Sites vitrines et e-commerce modernes, responsives et ultra-rapides.</p>
-            </div>
-            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                <i class="fas fa-palette"></i>
-                <h3>Design & Flyers</h3>
-                <p>Identité visuelle, logos et supports marketing (flyers, brochures) uniques.</p>
-            </div>
-            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-                <i class="fas fa-chart-line"></i>
-                <h3>Social Media</h3>
-                <p>Création de publications et présentations professionnelles pour vos réseaux.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="features" id="about">
-        <div class="section-title" data-aos="fade-up">
-            <p>QUELQUES RAISONS</p>
-            <h2>Pourquoi SmartFlow ?</h2>
-        </div>
-        <div class="features-grid">
-            <div class="feature-item" data-aos="fade-left">
-                <span>01</span>
-                <div>
-                    <h4>Qualité Premium</h4>
-                    <p>Nous utilisons les dernières technologies pour un rendu haut de gamme.</p>
-                </div>
-            </div>
-            <div class="feature-item" data-aos="fade-left" data-aos-delay="100">
-                <span>02</span>
-                <div>
-                    <h4>Support 24/7</h4>
-                    <p>Une équipe dédiée pour répondre à tous vos besoins techniques.</p>
-                </div>
-            </div>
-            <div class="feature-item" data-aos="fade-left" data-aos-delay="200">
-                <span>03</span>
-                <div>
-                    <h4>Méthode Agile</h4>
-                    <p>Rapidité d'exécution sans compromis sur la créativité.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="projects" id="projects">
-        <div class="section-title" data-aos="fade-up">
-            <p>NOS RÉALISATIONS</p>
-            <h2>Nos Projets</h2>
-        </div>
-        <div class="projects-grid">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="project-image">
-                    <img src="GLAM.png" alt="E-Commerce Store">
-                    <div class="project-overlay">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Plateforme E-Commerce</h3>
-                    <p>Site de vente en ligne moderne avec panier dynamique et paiement sécurisé.</p>
-                    <div class="project-tags">
-                        <span>Web Design</span>
-                        <span>E-Commerce</span>
-                    </div>
-                </div>
-            </div>
-
-            <!--<div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="project-image">
-                    <img src="portfolio-project-2.jpg" alt="Brand Identity">
-                    <div class="project-overlay">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Identité de Marque</h3>
-                    <p>Logo, palette de couleurs et guide graphique complet pour une startup tech.</p>
-                    <div class="project-tags">
-                        <span>Branding</span>
-                        <span>Design</span>
-                    </div>
-                </div>
-            </div>-->
-
-            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="project-image">
-                    <img src="truxtify.png" alt="E-commerce website">
-                    <div class="project-overlay">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Plateforme E-commerce</h3>
-                    <p>Site de vente en ligne moderne avec panier dynamique et paiement sécurisé.</p>
-                    <div class="project-tags">
-                        <span>Web design</span>
-                        <span>E-commerce</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="project-image">
-                    <img src="portfolio img.png" alt="Website Portfolio">
-                    <div class="project-overlay">
-                        <a href="https://wilsondjems22.github.io/my-portfolio/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Site Portfolio Artiste</h3>
-                    <p>Vitrine en ligne mettant en valeur le portfolio d'un développeur professionelle.</p>
-                    <div class="project-tags">
-                        <span>Web Design</span>
-                        <span>Portfolio</span>
-                    </div>
-                </div>
-            </div>
-
-            <!--<div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="project-image">
-                    <img src="service-web-development.jpg" alt="Mobile App">
-                    <div class="project-overlay">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Application Mobile</h3>
-                    <p>Conception d'interface utilisateur pour une application de livraison de repas.</p>
-                    <div class="project-tags">
-                        <span>UI/UX</span>
-                        <span>Mobile</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="project-image">
-                    <img src="showcase-luxury-brand.jpg" alt="Corporate Design">
-                    <div class="project-overlay">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h3>Design Corporate</h3>
-                    <p>Mise en page de présentations et brochures pour une consulting international.</p>
-                    <div class="project-tags">
-                        <span>Corporate</span>
-                        <span>Design</span>
-                    </div>
-                </div>
-            </div>-->
-        </div>
-    </section>
-
-    <a href="https://wa.me/+237621895982" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-        <span>Discuter sur WhatsApp</span>
-    </a>
-
-    <footer class="footer" id="footer">
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>SmartFlow</h4>
-                <p>Agence digitale spécialisée en solutions web et design créatif pour votre business.</p>
-                <div class="social-links">
-                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#services">Web Design</a></li>
-                    <li><a href="#services">Design & Flyers</a></li>
-                    <li><a href="#services">Social Media</a></li>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">
+                    <i class="fas fa-bolt"></i>
+                    <span>SmartFlow Agency</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">À Propos</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Liens Rapides</h4>
-                <ul>
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#about">Pourquoi Nous</a></li>
-                    <li><a href="#">Politique de Confidentialité</a></li>
-                    <li><a href="#">Conditions d'Utilisation</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email: <a href="mailto:contact@smartflow.com">contact@smartflow.com</a></p>
-                <p>Téléphone: <a href="tel:+237621895982">+237 6 21 89 59 82</a></p>
-                <p>Localisation: Douala, Cameroun</p>
+                <a href="#contact" class="btn btn-primary">Démarrer un Projet</a>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 SmartFlow Agency. Tous droits réservés.</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Solutions Digitales Innovantes</span>
+                </div>
+                <h1 class="hero-title">
+                    Transformez Votre Entreprise avec des 
+                    <span class="gradient-text">Solutions Digitales</span> 
+                    de Nouvelle Génération
+                </h1>
+                <p class="hero-subtitle">
+                    SmartFlow Agency accompagne les PME dans leur transformation digitale avec des sites web modernes, 
+                    des agents IA intelligents et des solutions sur mesure.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <span>Commencer Maintenant</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn btn-secondary btn-lg">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Découvrir nos Services</span>
+                    </a>
+                </div>
+                <!--<div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">Projets Réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="98">0</div>
+                        <div class="stat-label">% Satisfaction Client</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Clients Actifs</div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nos Services</span>
+                <h2 class="section-title">Des Solutions Complètes pour Votre <span class="gradient-text">Réussite Digitale</span></h2>
+                <p class="section-subtitle">
+                    Nous offrons une gamme complète de services digitaux adaptés aux besoins spécifiques des PME
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Création de Sites Web</h3>
+                    <p class="service-description">
+                        Sites web modernes, responsives et optimisés SEO pour propulser votre présence en ligne. 
+                        Design sur mesure adapté à votre image de marque.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Design responsive & moderne</li>
+                        <li><i class="fas fa-check"></i> Optimisation SEO avancée</li>
+                        <li><i class="fas fa-check"></i> Performance optimale</li>
+                        <li><i class="fas fa-check"></i> Maintenance & support</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        En savoir plus <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Populaire</div>
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">Agents IA Intelligents</h3>
+                    <p class="service-description">
+                        Automatisez vos processus avec des agents IA personnalisés : chatbots, assistants virtuels, 
+                        et solutions d'intelligence artificielle sur mesure.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Chatbots conversationnels</li>
+                        <li><i class="fas fa-check"></i> Assistants virtuels 24/7</li>
+                        <li><i class="fas fa-check"></i> Automatisation intelligente</li>
+                        <li><i class="fas fa-check"></i> Intégration API avancée</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        En savoir plus <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Marketing Digital</h3>
+                    <p class="service-description">
+                        Stratégies marketing complètes pour augmenter votre visibilité et convertir vos visiteurs 
+                        en clients fidèles.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Stratégie de contenu</li>
+                        <li><i class="fas fa-check"></i> Publicité en ligne</li>
+                        <li><i class="fas fa-check"></i> Social Media Management</li>
+                        <li><i class="fas fa-check"></i> Analytics & reporting</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        En savoir plus <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Applications Web</h3>
+                    <p class="service-description">
+                        Applications web progressives (PWA) pour offrir une expérience utilisateur exceptionnelle 
+                        sur tous les appareils.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Progressive Web Apps</li>
+                        <li><i class="fas fa-check"></i> UX/UI Design</li>
+                        <li><i class="fas fa-check"></i> Multi-plateforme</li>
+                        <li><i class="fas fa-check"></i> Performance native</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        En savoir plus <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="unavailable-badge">Non disponible</div>
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="service-title">Solutions Cloud</h3>
+                    <p class="service-description">
+                        Migration vers le cloud, hébergement sécurisé et infrastructure évolutive pour votre 
+                        croissance digitale.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Migration cloud sécurisée</li>
+                        <li><i class="fas fa-check"></i> Infrastructure scalable</li>
+                        <li><i class="fas fa-check"></i> Sécurité avancée</li>
+                        <li><i class="fas fa-check"></i> Backup automatique</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        En savoir plus <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="service-title">Consulting & Formation</h3>
+                    <p class="service-description">
+                        Accompagnement personnalisé et formation de vos équipes pour maximiser l'impact de 
+                        vos outils digitaux.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Audit digital complet</li>
+                        <li><i class="fas fa-check"></i> Stratégie personnalisée</li>
+                        <li><i class="fas fa-check"></i> Formation sur mesure</li>
+                        <li><i class="fas fa-check"></i> Support continu</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        En savoir plus <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-badge">À Propos de Nous</span>
+                    <h2 class="section-title">
+                        Votre Partenaire de Confiance pour la 
+                        <span class="gradient-text">Transformation Digitale</span>
+                    </h2>
+                    <p class="about-description">
+                        SmartFlow Agency est une agence digitale spécialisée dans l'accompagnement des PME 
+                        vers leur transformation numérique. Nous combinons expertise technique, créativité 
+                        et innovation pour créer des solutions digitales qui génèrent des résultats concrets.
+                    </p>
+                    <p class="about-description">
+                        Notre mission est de rendre les technologies de pointe accessibles aux entreprises 
+                        de toutes tailles, en proposant des solutions sur mesure, évolutives et à la pointe 
+                        de l'innovation.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="value-content">
+                                <h4>Innovation</h4>
+                                <p>Technologies de pointe et solutions créatives</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="value-content">
+                                <h4>Partenariat</h4>
+                                <p>Collaboration étroite et engagement à long terme</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="value-content">
+                                <h4>Excellence</h4>
+                                <p>Qualité supérieure dans chaque projet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="card-glow"></div>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-brain"></i>
+                                <span>AI/ML</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-aws"></i>
+                                <span>Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nos Réalisations</span>
+                <h2 class="section-title">Projets qui <span class="gradient-text">Font la Différence</span></h2>
+                <p class="section-subtitle">
+                    Découvrez comment nous avons aidé nos clients à réussir leur transformation digitale
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <a href="https://fashion-plus-boutique.example.com" target="_blank" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                    <div class="portfolio-image">
+                        <img src="GLAM.png" alt="E-Commerce Boutique Mode">
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Boutique Mode</h3>
+                            <p>Site web + Chatbot IA</p>
+                            <span class="portfolio-btn">Voir le projet →</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">IA</span>
+                        </div>
+                        <h3>Boutique Fashion Plus</h3>
+                        <p>Augmentation de 250% des ventes en ligne</p>
+                    </div>
+                </a>
+
+                <a href="https://taskflow-pro.example.com" target="_blank" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                    <div class="portfolio-image">
+                        <img src="truxtify.png" alt="Solution SaaS B2B">
+                        <div class="portfolio-overlay">
+                            <h3>Solution B2B</h3>
+                            <p>Application Web + API</p>
+                            <span class="portfolio-btn">Voir le projet →</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="tag">Plateforme E-commerce</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                        <h3>truxtify</h3>
+                        <p>10,000+ utilisateurs actifs mensuels</p>
+                    </div>
+                </a>
+
+                <a href="https://le-gourmet-digital.example.com" target="_blank" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                    <div class="portfolio-image">
+                        <img src="NK.png" alt="site vitrine">
+                        <div class="portfolio-overlay">
+                            <h3>Site vitrine pour la ventes de jus naturels</h3>
+                            <p>Chatbot + présentation des produits</p>
+                            <span class="portfolio-btn">Voir le projet →</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="tag">IA</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <h3>NK délices</h3>
+                        <p>Réduction du 35% des temps de négociation</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-badge">Contactez-nous</span>
+                    <h2 class="section-title">
+                        Prêt à Transformer Votre 
+                        <span class="gradient-text">Entreprise ?</span>
+                    </h2>
+                    <p class="contact-description">
+                        Discutons de votre projet et découvrons comment SmartFlow Agency peut vous aider 
+                        à atteindre vos objectifs digitaux.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Email</h4>
+                                <p>contact@smartflow-agency.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Téléphone</h4>
+                                <p>+33 1 23 45 67 89</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Adresse</h4>
+                                <p>42 Avenue de l'Innovation, 75001 Paris</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Entreprise</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service souhaité</label>
+                            <select id="service" name="service" required>
+                                <option value="">Sélectionnez un service</option>
+                                <option value="website">Création de Site Web</option>
+                                <option value="ai">Agent IA</option>
+                                <option value="marketing">Marketing Digital</option>
+                                <option value="webapp">Application Web</option>
+                                <option value="cloud">Solutions Cloud</option>
+                                <option value="consulting">Consulting & Formation</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">
+                            <span>Envoyer le Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message envoyé avec succès !</h3>
+                        <p>Nous vous répondrons dans les plus brefs délais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                            <i class="fas fa-bolt"></i>
+                            <span>SmartFlow Agency</span>
+                        </div>
+                    <p class="footer-description">
+                        Votre partenaire de confiance pour la transformation digitale. 
+                        Solutions innovantes pour PME ambitieuses.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Création de Sites Web</a></li>
+                        <li><a href="#services">Agents IA</a></li>
+                        <li><a href="#services">Marketing Digital</a></li>
+                        <li><a href="#services">Applications Web</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Entreprise</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Carrières</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Newsletter</h4>
+                    <p>Restez informé de nos dernières innovations</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SmartFlow Agency. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Mentions Légales</a>
+                    <a href="#">Politique de Confidentialité</a>
+                    <a href="#">CGV</a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 1000, once: true });
-        
-        // Mobile Menu Toggle
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('nav-links');
-        
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            hamburger.classList.toggle('active');
-        });
-        
-        // Close menu when link is clicked
-        const links = navLinks.querySelectorAll('a');
-        links.forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-                hamburger.classList.remove('active');
-            });
-        });
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
+
 
 
 
